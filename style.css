@@ -20,7 +20,9 @@ body {
     align-items: flex-end;
     font-size: 16px;
 }
-
+#container{
+    margin: 89px;
+}
 #flags{
     display: flex;
   
@@ -55,73 +57,27 @@ body {
     width: 100%;
     height: 50px;
     background-color: #494949;
-
+    color: #b2b0b2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.nav-link{
-
+.link{
+    margin-right: 30px;
     font-size: 14px;
     font-weight: bold;
-    color: #b2b0b2;
 }
 .btn{
     font-size: 10px;
     background-color: #2da745;
     border-radius: 0;
     color: #ffffff;
-    font-weight: bold;
 
 }
-#container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-  
-    flex-wrap: wrap;
+.date{
+    display: inline-block;
 }
-.card-date{
-    display: flex;
-    padding: 0;
-    font-size: 11px;
-    margin-left: 6px;
+.techkaro{
+    margin: 0;
+    display: inline-block;
 }
-.fas{
-    color: #2da745;
-}
-i{
-    margin-right: 10px;
-}
-.date, .community{
-    margin: 10px;
-}
-#sale-div{
-    margin-top: 77px;
-}
-#main-div{
-   
-    max-width: 650px;
-}
-h2, h5{
-    font-weight: bold;
-}
-.flag-en, .flag-ur, .flag-zh:hover{
- cursor: pointer;
-}
-
-/* .card{
-    width: 550px;
-    
-}
-.card-text{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-a{
-    color: green;
-    
-}
-.para{
-    padding: 10px;
-} */
